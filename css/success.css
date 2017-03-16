@@ -1,0 +1,361 @@
+@charset "utf-8";
+.w1000{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* 方便网 */
+.top{
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-bottom: 2px solid #7ec08a;
+	overflow: hidden;
+}
+.top .w1000{
+	height: 100px;
+}
+.top .w1000 img:first-of-type{
+	float: left;
+	margin-top: 13px;
+}
+.top .w1000 img:last-of-type{
+	margin-top: 32px;
+	margin-left: 24px;
+}
+/* 中间 */
+.content{
+	width: 100%;
+	height: 820px;
+	margin: 0 auto;
+	background-color: #fbfbfb;
+	overflow: hidden;
+}
+.content .w1000{
+	height: 820px;
+}
+.content .w1000 .content-text{
+	width: 1000px;
+	height: 64px;
+	line-height: 64px;
+}
+.content .w1000 .content-text img{
+	vertical-align: middle;
+}
+.content .w1000 .content-text span{
+	vertical-align: middle;
+	font-size: 16px;
+	color: #333;
+	margin-left: 10px;
+}
+.content .w1000 .content-text p{
+	font-size: 13px;
+	color: #878484;
+	float: right;
+}
+.content .w1000 .content-text p a{
+	color: #2da1e7;
+}
+.content .w1000 .content-form{
+	height: 700px;
+	background-color: #fff;
+	border: 2px solid #dbdbdb;
+}
+.content .w1000 .content-form ul{
+	display: flex;
+	justify-content: space-around;
+	height: 45px;
+	background-image: linear-gradient(to top,#fff,#f3f8f1);
+	/* background-color: #f9fbf6; */
+	line-height: 45px;
+}
+.content .w1000 .content-form ul li{
+	font-size: 16px;
+	color: #84848d;
+}
+.content .w1000 .content-form ul li:nth-child(2){
+	margin-left: 190px;
+	margin-right: 225px;
+}
+.content .w1000 .content-form .pics{
+	width: 885px;
+	margin: 0 auto;
+}
+.content .w1000 .content-form .pics img{
+	float: left;
+}
+.content .w1000 .content-form .text{
+	width: 400px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.content .w1000 .content-form .text img{
+	float: left;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+.content .w1000 .content-form .text p{
+	font-size: 16px;
+	color: #333;
+	margin-top: 10px;
+}
+.content .w1000 .content-form .text span{
+	color: #ff9019;
+	font-weight: bold;
+}
+.content .w1000 .content-form .text a{
+	display: inline-block;
+	width: 120px;
+	height: 32px;
+	background-color: #ff9000;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 32px;
+	margin-left: 20px;
+	border-radius: 6px;
+}
+.content .w1000 .content-form .imgs{
+	width: 200px;
+	height: 186px;
+	padding-top: 28px;
+	border: 1px solid #dcdcdc;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+.content .w1000 .content-form .imgs img:last-child{
+	margin-top: 10px;
+}
+
+
+
+/* 关于我们 */
+.about{
+	width: 100%;
+	height: 44px;
+	background-color: #fdfdfd;
+	margin: 0 auto;
+	border-bottom: 2px solid #eee;
+	overflow: hidden;
+}
+.about ul{
+	width: 540px;
+	height: 44px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.about ul li{
+	width: 108px;
+	height: 18px;
+	font-size: 16px;
+	color: #726f71;
+	line-height: 18px;	
+	text-align: center;
+	border-right: 1px solid #dadada;
+	margin-top: 10px;
+}
+.about ul li:last-child{
+	border-right: 0 solid #dadada;
+}
+/* 版权所有 */
+.copyright{
+	width: 100%;
+	height: 120px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.copyright p{
+	width: 420px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #fdfdfd;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #726f71;
+}
+.copyright p span{
+	color: #9999a1;
+}
+.bgc{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+	display: none;
+}
+.enter{
+	width: 360px;
+	height: 380px;
+	background: url(../images/icon8.png) no-repeat;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -180px;
+	margin-left: -190px;
+	z-index: 4;
+	display: none;
+}
+.enter ul{
+	width: 360px;
+	height: 52px;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #5cb06c;
+}
+.enter ul li{
+	width: 180px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	font-size: 16px;
+	color: #999;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.enter ul li.on{
+	border-bottom: 5px solid #5cb06c;
+	color: #5cb06c;
+}
+.enter .pages .change1{
+	width: 302px;
+	height: 190px;
+	margin: 0 auto;
+	/*display: none;*/
+}
+.enter .pages .change1 input::-webkit-input-placeholder{
+	font-size: 14px;
+	font-weight: bold;
+}
+.enter .pages .change1 #tel1 , .enter .pages .change1 #pwd1{
+	width: 260px;
+	height: 40px;
+	padding-left: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #ccc;
+	margin-top: 25px;
+}
+.enter .pages .change1 #box{
+	float: left;
+	margin-top: 2px;
+}
+.enter .pages .change1 p:nth-of-type(3){
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+.enter .pages .change1 p:nth-of-type(3) span{
+	font-size: 14px;
+	color: #333;
+	margin-left: 6px;
+}
+.enter .pages .change1 p a{
+	float: right;
+	font-size: 14px;
+	color: #2da1e9;
+}
+.enter .pages .change1 .error{
+	color: #fc2d41;
+	margin-left: 80px;
+	display: none;
+}
+.enter .pages .change1 #btn1{
+	width: 300px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	background: #49a75b;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.enter .pages .change2{
+	width: 302px;
+	height: 190px;
+	margin: 0 auto;
+	display: none;
+}
+.enter .pages .change2 input::-webkit-input-placeholder{
+	font-size: 14px;
+	font-weight: bold;
+}
+.enter .pages .change2 p:first-of-type input{
+	width: 260px;
+	height: 40px;
+	padding-left: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 20px;
+	box-shadow: 1px 1px 2px #ccc;
+}
+.enter .pages .change2 p:nth-of-type(2) input{
+	width: 84px;
+	height: 40px;
+	padding-left: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 20px;
+	box-shadow: 1px 1px 2px #ccc;
+}
+.enter .pages .change2 p:nth-of-type(2) a{
+	color: #2da1e9;
+}
+.enter .pages .change2 p:nth-of-type(3) input{
+	width: 84px;
+	height: 40px;
+	padding-left: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 20px;
+	box-shadow: 1px 1px 2px #ccc;
+}
+.enter .pages .change2 p:nth-of-type(3) button{
+	width: 100px;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	margin-left: 20px;
+	box-shadow: 1px 1px 2px #ccc;
+}
+.enter .pages .change2 #btn2{
+	width: 300px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	background: #49a75b;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+.enter .foot{
+	width: 339px;
+	height: 50px;
+	background: #f7fbf5;
+	margin: 0 auto;
+	line-height: 50px;
+	margin-top: 50px;
+}
+.enter .foot p{
+	color: #333;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.enter .foot p a{
+	color: #2da1e9;
+}
+
+
+
+
+
+
+
+
+

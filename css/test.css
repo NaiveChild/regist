@@ -1,0 +1,237 @@
+@charset "utf-8";
+.w1000{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* 方便网 */
+.top{
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-bottom: 2px solid #7ec08a;
+	overflow: hidden;
+}
+.top .w1000{
+	height: 100px;
+}
+.top .w1000 img:first-of-type{
+	float: left;
+	margin-top: 13px;
+}
+.top .w1000 img:last-of-type{
+	margin-top: 32px;
+	margin-left: 24px;
+}
+/* 中间 */
+.content{
+	width: 100%;
+	height: 970px;
+	margin: 0 auto;
+	background-color: #fbfbfb;
+	overflow: hidden;
+}
+.content .w1000{
+	height: 970px;
+}
+.content .w1000 .content-text{
+	width: 1000px;
+	height: 64px;
+	line-height: 64px;
+}
+.content .w1000 .content-text img{
+	vertical-align: middle;
+}
+.content .w1000 .content-text span{
+	vertical-align: middle;
+	font-size: 16px;
+	color: #333;
+	margin-left: 10px;
+}
+.content .w1000 .content-text p{
+	font-size: 13px;
+	color: #878484;
+	float: right;
+}
+.content .w1000 .content-text p a{
+	color: #2da1e7;
+}
+.content .w1000 .content-form{
+	height: 845px;
+	background-color: #fff;
+	border: 2px solid #dbdbdb;
+	position: relative;
+}
+.content .w1000 .content-form ul{
+	display: flex;
+	justify-content: space-around;
+	height: 45px;
+	background-image: linear-gradient(to top,#fff,#f3f8f1);
+	/* background-color: #f9fbf6; */
+	line-height: 45px;
+}
+.content .w1000 .content-form ul li{
+	font-size: 16px;
+	color: #84848d;
+}
+.content .w1000 .content-form ul li:nth-child(2){
+	margin-left: 190px;
+	margin-right: 225px;
+}
+.content .w1000 .content-form .pics{
+	width: 885px;
+	margin: 0 auto;
+}
+.content .w1000 .content-form .pics img{
+	float: left;
+}
+.content .w1000 .content-form .imgs{
+	width: 200px;
+	height: 370px;
+	padding-top: 25px;
+	float: right;
+	text-align: center;
+	border: 1px solid #dcdcdc;
+	margin-right: 20px;
+	margin-top: 50px;
+}
+.content .w1000 .content-form .imgs img:nth-child(2){
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.content .w1000 .content-form .code{
+	width: 750px;
+	height: 180px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 10px;
+	border-bottom: 1px dashed #e2e2e2;
+}
+.content .w1000 .content-form .code p{
+	font-size: 16px;
+	color: #3d3d3d;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-left: 55px;
+}
+.content .w1000 .content-form .code p:first-of-type{
+	margin-left: 115px;
+}
+.content .w1000 .content-form .code p span{
+	color: #ff9618;
+}
+.content .w1000 .content-form .code p #randomCode{
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.content .w1000 .content-form .code p input{
+	width: 152px;
+	height: 32px;
+	padding-left: 10px;
+	margin-left: 10px;
+	border: 1px solid #ddd; 
+	box-shadow: 2px 2px 5px #ccc inset;
+}
+.content .w1000 .content-form .code #btn{
+	width: 162px;
+	height: 32px;
+	background-color: #ff9000;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 6px;
+	margin-left: 117px;
+}
+.content .w1000 .content-form .message{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top: 360px;
+	left: 127px;
+}
+.content .w1000 .content-form .message p{
+	font-size: 16px;
+	color: #3d3d3d;
+}
+.content .w1000 .content-form .message button{
+	width: 130px;
+	height: 32px;
+	border-radius: 5px;
+	border: 1px solid #cdcdcd;
+	background-color: #eee;
+	margin-top: 32px;
+	color: #3d3d3d;
+	font-size: 14px;
+}
+.content .w1000 .content-form .problem{
+	float: left;
+	width: 956px;
+	height: 280px;
+	background-color: #f2f2f2;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.content .w1000 .content-form .problem p{
+	line-height: 25px;
+	margin-left: 18px;
+	color: #333;
+}
+.content .w1000 .content-form .problem p:first-child{
+	line-height: 70px;
+}
+.content .w1000 .content-form .problem p:nth-child(3){
+	margin-bottom: 20px;
+}
+.content .w1000 .content-form .problem p:nth-child(5){
+	margin-bottom: 20px;
+}
+/* 关于我们 */
+.about{
+	width: 100%;
+	height: 44px;
+	background-color: #fdfdfd;
+	margin: 0 auto;
+	border-bottom: 2px solid #eee;
+	overflow: hidden;
+}
+.about ul{
+	width: 540px;
+	height: 44px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.about ul li{
+	width: 108px;
+	height: 18px;
+	font-size: 16px;
+	color: #726f71;
+	line-height: 18px;	
+	text-align: center;
+	border-right: 1px solid #dadada;
+	margin-top: 10px;
+}
+.about ul li:last-child{
+	border-right: 0 solid #dadada;
+}
+/* 版权所有 */
+.copyright{
+	width: 100%;
+	height: 120px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.copyright p{
+	width: 420px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #fdfdfd;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #726f71;
+}
+.copyright p span{
+	color: #9999a1;
+}
